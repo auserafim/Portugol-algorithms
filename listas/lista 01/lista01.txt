@@ -1,0 +1,172 @@
+-> Algoritmo 01
+
+programa{
+  funcao inicio(){
+    inteiro int1, int2
+    leia(int1)
+    leia(int2)
+    escreva(int1, int2)
+  }
+}
+
+-> Algoritmo 02
+
+programa {
+  funcao inicio() {
+  inteiro int1, int2, multi
+  leia(int1)
+  leia(int2)
+  multi = int1*int2
+  escreva("o resultado da multiplicação é: ", multi)
+  }
+}
+
+-> Algoritmo 03
+
+programa {
+  funcao inicio() {
+  inteiro int, sucessor, antecessor
+  escreva("escreva um número inteiro: ")
+  leia(int)
+  sucessor = int + 1
+  antecessor = int - 1 
+  escreva("o sucessor do número é: ", sucessor, " o antecessor do número é: ", antecessor)
+  }
+}
+
+-> Algoritmo 04
+
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+  real int, raiz, quadrado
+  escreva("escreva um número inteiro: ")
+  leia(int)
+  quadrado = int*int
+  raiz = mat.raiz(quadrado, 2,0)
+    escreva("o número é: ", int, 
+  " o quadrado do número é: ", quadrado, 
+  " a raiz do número é: ", raiz)
+  }
+}
+
+-> Algoritmo 05
+
+programa {
+  funcao inicio() {
+  inteiro int
+  escreva("escreva um número inteiro: ")
+  leia(int)
+   se int > 20 
+    escreva("o número é: ", int) senao
+  }
+}
+
+-> Algoritmo 06 
+
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+  real int, raiz
+  escreva("escreva um número inteiro: ")
+  leia(int)
+   se int >= 0 {
+      raiz = mat.raiz(int, 2,0)
+     escreva("a raiz do número é: ", raiz)    
+   }
+     senao
+  }
+}
+
+-> Algoritmo 07 
+
+programa {
+  funcao inicio() {
+  real int
+  escreva("escreva um número inteiro: ")
+  leia(int)
+   se (int <= 0) {
+     escreva("branco") 
+   }
+     senao se {
+         (0 < int < 100)
+     escreva("verde")
+    
+     }
+    
+     
+      
+     senao se  {
+       (101 < int < 1000)
+     escreva("azul")
+     
+     }
+
+      
+     
+       senao  {
+(int > 1000) 
+       
+     escreva("vermelho") 
+       }
+
+
+   
+    
+  
+}
+
+-> Algoritmo 08 
+
+programa {
+  funcao inicio() {
+  inteiro int
+  escreva("escreva um número inteiro: ")
+  leia(int)
+  se (int%2 == 0 ) {
+    escreva("esse número é par")
+  } senao se (int%2 = 1 ) {
+    escreva("esse número é ímpar")
+  }
+  
+  }
+  
+}
+
+-> Algoritmo 09 
+
+programa {
+  funcao inicio() {
+  inteiro int
+  escreva("escreva um número inteiro: ")
+  leia(int)
+  se(int%2 == 0){
+    escreva("esse número é divisível por 2")
+  }senao se (int%3 == 0){
+    escreva("esse número é divisível por 3")
+  }senao se (int%5 == 0){
+    escreva("esse número é divisível por 5 ")
+  }senao se (int%10 == 0){
+    escreva("esse número é divisível por 10 ")
+  }senao {
+    escreva("esse número não é divisível por nenhum número acima")
+  }
+  }
+  
+}
+
+-> Algoritmo 10 {
+  programa {
+  funcao inicio() {
+  inteiro int1, int2
+  escreva("escreva um número inteiro: ")
+  leia(int1)
+    escreva("escreva um número inteiro: ")
+  leia(int2)
+  se (int1 > int2){
+    escreva(int1, " é o maior valor")
+  } senao se (int2 > int1) {
+    escreva(int2, " é o maior valor")
+  }  
+}
+}

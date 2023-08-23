@@ -1,0 +1,73 @@
+Algoritmo	1
+Leia	do	usuário	dois	números	inteiros	e	então	imprima	estes	números.
+
+
+Algoritmo	2
+Leia	do	usuário	dois	números	inteiros,	execute	a	multiplicação	entre	eles	e	então	imprima	o	
+resultado.
+
+
+Algoritmo	3
+Leia	um	número	inteiro	e então	imprima	seus	números sucessor	e	antecessor.
+
+
+Algoritmo	4
+Leia	um	número real,	calcule e	imprima	as seguintes saı́das:
+• O	número	informado;
+• O	seu	quadrado;
+• A	sua	raiz	quadrada.
+
+
+Algoritmo	5
+Leia	um	número inteiro,	caso	seu	valor	seja	maior	que	20,	imprima-o.
+
+
+Algoritmo	6
+Leia	um	número	real	do	usuá rio,	caso	seu	valor	for	zero,	ou	positivo,	calcule	e	imprima	sua	raiz	
+quadrada,	mas	se	seu	valor	for	negativo,	calcule	e	imprima	seu	quadrado.
+
+
+Algoritmo	7
+Leia	um	número	inteiro	do	usuá rio,	se	o	valor	for	menor	que	zero	imprima	a	palavra	“Branco”;	
+se	o	 valor	estiver	entre	zero	e 100,	imprima	a	palavra	 “Verde”;	se	estiver	entre	101	e	1.000,	
+imprima	a	palavra	“Azul”	e	se	maior	que	1.000	imprima	“Vermelho”.
+
+
+Algoritmo	8
+Leia	um	número	inteiro,	avalie	(calcule)	e	imprima	se	ele	é	par,	ou	ı́mpar.
+
+
+Algoritmo	9
+Leia	um	número	inteiro,	verifique	e	imprima	se	ele	é:	
+- Divisı́vel	por	2;
+- Divisı́vel	por	3;
+- Divisı́vel	por	5;
+- Divisı́vel	por	10;
+
+
+Algoritmo	10
+Leia	2	valores	inteiros	do	usuá rio,	entã o	verifique	qual entre	eles	é	o	maior.	Imprima	o	valor	
+maior	e	o	valor	menor.
+
+
+Algoritmo	11
+Leia	3	valores	inteiros	do	usuário,	entã o	verifique	qual é	o	menor e	o	maior valor.	Imprima o	
+maior	e	o	menor.
+
+
+Algoritmo	12
+Leia	3	valores	inteiros	do	usuário,	considere	que	todos	os	valores	sã o	diferentes	entre	si,	entã o
+identifique	o	valor	“do	meio” entre	eles e	imprima-o.
+
+
+Algoritmo	13
+Leia	2	valores	inteiros	do	usuário,	identifique	o	maior	valor	entre	eles.	Dobre	o	valor	do	menor	
+número	informado	 pelo	 usuário	e	então	 verifique	 se	ele se	 tornou	maior	 que	 o	maior	 valor	
+inicial,	imprimindo	o	contexto	obtido.
+
+
+Algoritmo	14
+Monte um	sistema	que	ajude na	decisã o	de	um	aluno.	Este	aluno	está	cursando 3	disciplinas	e	
+já	tem	a	nota	1	de	cada	uma	delas.	Calcule	a	média	entre	elas.	Se	a	média	for	menor	que	5,0,	o	
+sistema	deve	sugerir	que a	disciplina	com	menor nota	seja	abandonada.	Se	a	média	estiver	entre	
+5,0	e	7,0	faça	um	alerta,	informando	a menor	nota	que	exige	mais	atenção.
