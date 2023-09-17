@@ -87,33 +87,17 @@ programa {
   leia(int)
    se (int <= 0) {
      escreva("branco") 
-   }
-     senao se {
-         (0 < int < 100)
-     escreva("verde")
-    
-     }
-    
-     
-      
-     senao se  {
-       (101 < int < 1000)
-     escreva("azul")
-     
-     }
-
-      
-     
-       senao  {
-(int > 1000) 
-       
+   }senao se 
+         (int <= 100){
+              escreva("verde")
+         }senao se  
+       (int <= 1000){
+         escreva("azul")
+       }senao  se 
+(int > 1000){      
      escreva("vermelho") 
-       }
-
-
-   
-    
-  
+       }   
+  }
 }
 
 -> Algoritmo 08 
@@ -169,4 +153,64 @@ programa {
     escreva(int2, " é o maior valor")
   }  
 }
+}
+
+-> Algoritmo 11 
+programa {
+  funcao inicio() {
+   inteiro int1, int2, int3, maior, menor
+   escreva("escreva um número inteiro: ")
+   leia(int1)
+      escreva("escreva um número inteiro: ")
+      leia(int2)
+         escreva("escreva um número inteiro: ")
+      leia(int3)
+maior = int1
+menor = int1
+se(maior < int2){
+  maior = int2
+} 
+se(maior < int3) {
+  maior = int3
+}
+se(menor > int2){
+  menor = int2
+} 
+se(menor > int3) {
+  menor = int3
+}
+escreva("\n", maior, " é o maior número entre todos")
+escreva("\n", menor, " é o menor número entre todos","\n")
+
+  }
+}
+
+-> Algoritmo 12
+programa {
+  funcao inicio(){
+     inteiro int1, int2, int3, mediana
+   escreva("escreva um número inteiro: ")
+   leia(int1)
+      escreva("escreva um número inteiro: ")
+      leia(int2)
+         escreva("escreva um número inteiro: ")
+      leia(int3)
+      se ((int1 != int2) e (int2 != int3) e (int1 != int3)) {
+
+      se((int2 > int1) e (int2 < int3) ou (int2 > int3) e (int2 < int1)) {
+        escreva(int2, " é o valor mediano")
+        
+      } senao se ((int1 > int2) e (int1 < int3) ou (int1> int3) e (int1 < int2)) {
+        escreva(int1, " é o valor mediano")
+
+      } senao{ 
+        escreva(int3, " é o valor mediano")
+      }
+
+      }
+     senao{
+      escreva("escreva números diferentes entre si: ")
+     }
+      
+  }
 }

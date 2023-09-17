@@ -56,7 +56,7 @@ maior	e	o	menor.
 
 
 Algoritmo	12
-Leia	3	valores	inteiros	do	usuário,	considere	que	todos	os	valores	sã o	diferentes	entre	si,	entã o
+Leia	3	valores	inteiros	do	usuário,	considere	que	todos	os	valores	são	diferentes	entre	si,	então
 identifique	o	valor	“do	meio” entre	eles e	imprima-o.
 
 
