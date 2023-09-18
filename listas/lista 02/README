@@ -1,0 +1,46 @@
+Algoritmo	1
+Escreva	um	algoritmo	que	conte	(e	imprima)	os	valores	de	zero	a	5.
+
+Algoritmo	2
+Escreva	um	algoritmo	que	conte	(e	imprima)	os	valores	de	10	a	1.
+
+Algoritmo	3
+Escreva	um	algoritmo	que	leia	um	número	inteiro positivo do	usuá rio e	entã o	que	imprima	na	
+tela	os	valores	de	zero	até	este	número.
+
+Algoritmo	4
+Escreva	um	algoritmo	que	leia	um	número	inteiro positivo do	usuá rio e	entã o	que	imprima	na	
+tela	os	valores	deste	número	até	zero	e	entã o	de volta	de zero	até	o número informado.
+
+Algoritmo	5
+Escreva	um	algoritmo	que	leia	dois	números	inteiros	do usuá rio,	um	chamado	de	“limite”,	outro	
+de	“incremento”.	 Imprima	os	 valores	de	zero	até	“limite”,	incrementando	o	 valor	conforma	o	
+valor	de	“incremento”.	Por	exemplo,	se	limite=10	e	incremento=3,	serã o	impressos	os	valores	{0,	
+3, 6,	9}.
+
+Algoritmo	6
+Escreva	 um	 algoritmo	 que	 leia	 dois	 valores	 inteiros	 positivos.	 O algoritmo	 deve	 calcular	 a	
+multiplicaçã o	 entre	 os	 dois	 valores,	mas	 por	meio	 da	 soma	 sucessiva	 do	 primeiro	 valor	 em	
+quantidade	dada	pelo	segundo	valor.	Por	exemplo,	se	a	entrada	for	3	e	4,	entã o	a	soluçã o	deve	
+ser	dada	pela	soma	de	3	+	3	+	3	+ 3 (4	somas).
+
+Algoritmo	7
+Escreva	um	algoritmo	que	leia	um	número	inteiro	positivo	do	usuá rio.	Entã o	o	sistema	deve	
+imprimir	a	tabuada	deste	número,	considerando	os	mú ltiplos	de	1	a	10.
+
+Algoritmo	8
+Escreva	um	algoritmo	em	que	o	usuá rio	informe	quantos	números	serã o	lidos.	Na	sequência	o	
+sistema	deve	ler	os	valores	e	calcular	a	média.	Ao final	imprima	o	resultado.
+Página 2 de 2
+
+Algoritmo	9
+Escreva	um	algoritmo que	leia	do	usuá rio	um	valor	inteiro	positivo de	referência.	Na	sequencia,	
+leia	mais	3	valores	do	usuá rio,	some	os	3	valores.	Se	o	total	da	soma	for	maior que	o	valor	de	
+referência	o	sistema	deve	contar	de	1	até	o	total	da	soma.	Caso	contrá rio,	o	sistema	deve	contar	
+de	1	até	o	valor	de	referência.
+
+Algoritmo	10
+Escreva	 um	 algoritmo	 que	 leia	 um	 valor	 inteiro	 positivo	 do	 usuá rio.	 Entã o	 o	 sistema	 deve	
+“contar” de	1	até	o	valor	informado,	de	modo	que	a	cada	valor	contado	se	o	valor	for	ı́mpar	o	
+sistema	 deve	 imprimir	 o	 dobro	 do	 valor	 corrente, caso	 o	 valor	 seja par	 deverá	 imprimir	 a	
+metade	dele.
