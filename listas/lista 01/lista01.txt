@@ -67,16 +67,17 @@ programa {
 programa {
   inclua biblioteca Matematica --> mat
   funcao inicio() {
-  real int, raiz
+  real int, raiz, quadrado
   escreva("escreva um número inteiro: ")
   leia(int)
    se int >= 0 {
-      raiz = mat.raiz(int, 2,0)
+      raiz = mat.raiz(int, 2.0)
      escreva("a raiz do número é: ", raiz)    
    }
-     senao
-  }
-}
+        senao  {
+      potencia = mat.potencia(int, 2.0)
+      escreva(potencia)
+  }}
 
 -> Algoritmo 07 
 
@@ -109,7 +110,7 @@ programa {
   leia(int)
   se (int%2 == 0 ) {
     escreva("esse número é par")
-  } senao se (int%2 = 1 ) {
+  } senao se (int%2 != 0 ) {
     escreva("esse número é ímpar")
   }
   
@@ -139,7 +140,7 @@ programa {
   
 }
 
--> Algoritmo 10 {
+-> Algoritmo 10 
   programa {
   funcao inicio() {
   inteiro int1, int2
@@ -153,7 +154,7 @@ programa {
     escreva(int2, " é o maior valor")
   }  
 }
-}
+  }
 
 -> Algoritmo 11 
 programa {
@@ -214,3 +215,74 @@ programa {
       
   }
 }
+
+ -> Algoritmo 13
+
+programa {
+  funcao inicio(){
+     inteiro int1, int2, maior, menorDobrado
+   escreva("escreva um número inteiro: ")
+   leia(int1)
+      escreva("escreva um número inteiro: ")
+      leia(int2)
+      se((int1 != int2))  {
+       se(int1 > int2) { // então o int2 é o menor valor informado, logo vamos dobrá-lo 
+        menorDobrado = int2*2 //dobrando o valor do menor número informado
+        maior = int1
+       } senao {
+        menorDobrado = int1*2
+        maior = int2
+       }
+       se(maior < menorDobrado){
+  escreva("o menor valor dobrado tornou-se o maior número") // verificando se o menor valor dobrado satizfaz a exigência do algoritmo
+} senao {
+  escreva("o menor valor dobrado não se tornou o maior número")
+}
+      } senao escreva("\n escreva valores diferentes entre si")
+
+          }
+        }
+          
+  }
+}
+
+  -> Algoritmo 14
+
+  programa {
+  funcao inicio(){
+     real int1, int2, int3, menorNota, maiorNota, media
+   escreva("escreva a nota 1 do aluno: ")
+   leia(int1)
+      escreva("escreva a nota 2 do aluno: ")
+      leia(int2)
+            escreva("escreva a nota 3 do aluno: ")
+      leia(int3)
+
+      maiorNota = int1
+      menorNota = int1
+
+se(maiorNota < int2){
+  maiorNota= int2
+} 
+se(maiorNota < int3) {
+  maiorNota = int3
+}
+se(menorNota > int2){
+  menorNota = int2
+} 
+se(menorNota > int3) {
+  menorNota = int3
+}
+
+
+      media = ((int1 + int2 + int3)/3)
+      se(media < 5.0) {
+      escreva("você deve abandonar a disciplina que teve nota: ", menorNota)
+      } senao se((media > 5.0) e (media < 7.0)){
+        escreva("a disciplina que teve\t", menorNota, "\t exige mais da sua atenção")
+
+      } senao escreva("Parabéns!, o seu rendimento está bom")
+
+          }
+        }
+        
